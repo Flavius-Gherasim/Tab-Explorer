@@ -1,0 +1,31 @@
+Gherasim Flavius-Sebastian 313CC
+Durata implementarii: 16 ore
+
+Detalii implementare:
+page - structura ce contine un id, url si descriere a unei pagini
+vec_pag - structura ce contine vectorul de pagini
+tab - structura ce contine un id, pagina curenta si stivele forward si
+backward a unui tab
+stack - structura unei stive
+tabsListnod - structura unui nod din lista
+tabsList - structura santinelei
+browser - structura ce contine tabul curent si lista de taburi al unui
+browser
+init - functie de initializare a listei
+newtab - functie de adaugare unui tab in lista
+printList - functie ce afiseaza taburile incepand cu cel curent si descrierea
+acestuia
+open - functie ce deschide un tab cu un anumit id
+next/prev - functii ce trec la tabul urmator/precedent
+push - functie ce adauga un element in stiva
+pop - functie ce scoate din stiva un element
+invers - functie ce afiseaza in ordine inversa continutul unei stive
+printh - functie ce afiseaza istoricul de navigare al unui tab
+backward/forwardu - functii de navigare pe precedenta/urmatoarea pagina
+close - functie ce inchide tabul curent
+pageid - functie ce deschide o pagina cu un anumit id in tabul curent
+freepagini - functie ce elibereaza vectorul de pagini
+freestiva - functie ce elibereaza o stiva
+freetab - functie ce elibereaza un tab cu stivele sale
+free_listataburi - functie ce elibereaza intreaga lista de taburi si
+santinela
